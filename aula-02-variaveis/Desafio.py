@@ -1,0 +1,17 @@
+print("Bom dia usuario, a seguir informe o seu nome ")
+nome_usuario=input("seu nome:")
+print(f"Boas-vindas {nome_usuario}.")
+
+print("a seguir digite a data de nascimento")
+Dia=int(input("dia:"))
+Mes=int(input("mês:"))
+ano=int(input('ano:'))
+print("\no dia do seu nascimeto é:")
+print(f"Dia:{Dia}")
+print(f"Mês:{Mes}")
+print(f"ano:{ano}")
+
+print("Por ultimo informe dois numeros int de sua preferencia")
+Numero_um=int(input("Digite o primeiro numero:"))
+Numero_dois=int(input("Digite o segundo numero:"))
+print(f"{Numero_um}+{Numero_dois}={Numero_um+Numero_dois}")
